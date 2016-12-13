@@ -4,6 +4,7 @@ MAINTAINER Stanley Förster <stanley.foerster@gmail.com>
 
 ENV ARCHIVA_HOME /opt/apache-archiva
 ENV ARCHIVA_BASE /var/apache-archiva
+ENV ARCHIVA_CONTEXT_PATH /
 
 WORKDIR ${ARCHIVA_HOME}
 COPY run.sh .
